@@ -285,7 +285,9 @@
                 className: 'control',
                 orderable: false,
                 targets: -1 // Última columna (ACCIONES) no se ordenará
-            }]
+            }],
+            "lengthMenu": [6, 10, 25, 50], // Configurar las opciones de cantidad de filas por página
+            "pageLength": 6 // Establecer el número de filas por página por defecto
         });
     });
 </script>

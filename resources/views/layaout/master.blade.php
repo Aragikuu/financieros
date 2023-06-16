@@ -15,8 +15,8 @@
 <body>
     <nav>
         <a href="#">Inicio</a>
-        <a href="productos">Productos</a>
-        <a href="usuarios">Alumnos</a>
+        <a href="xml">xml</a>
+        <a href="alumnos">Alumnos</a>
         <label class="switch">
             <input type="checkbox" id="mode-switch">
             <span class="slider"></span>
