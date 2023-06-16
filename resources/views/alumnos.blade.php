@@ -1,6 +1,7 @@
 @extends('layaout.master')
 @section('content')
 <div class="t">Alumnos</div>
+<button class="btn-agregar">Agregar +</button>
 <div class="marco">
     <table id="example" class="display responsive nowrap" style="width:100%">
         <thead>
@@ -279,6 +280,20 @@
                 details: {
                     type: 'column',
                     target: -1 // Última columna (ACCIONES) se ocultará en pantallas pequeñas
+                }
+            },
+            language: {
+                searchPlaceholder: "Buscar",
+                search: "Buscar:",
+                zeroRecords: "No se encontraron resultados",
+                emptyTable: "No hay datos disponibles en la tabla",
+                infoEmpty: "Mostrando 0 registros de un total de 0",
+                infoFiltered: "(filtrado de un total de MAX registros)",
+                example_info: "Se muestran 0 de 0 un total de 0",
+                sInfo: "<span style='margin-left: 2rem;'>Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros</span>",
+                paginate: {
+                    previous: "Anterior",
+                    next: "Siguiente"
                 }
             },
             columnDefs: [{

@@ -267,12 +267,11 @@ th:last-child {
     width: auto;
 }
 
-.btn-registro {
+.btn-agregar {
     font-family: var(--var--font-family);
     font-weight: 200;
     cursor: var(--var--cursorp);
-    margin: 1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 1rem;
     width: 10rem;
     height: 3rem;
@@ -283,11 +282,11 @@ th:last-child {
     background: #1c7406;
 }
 
-.btn-registro:hover {
+.btn-agregar:hover {
     background: #229406;
 }
 
-.btn-registro:active {
+.btn-agregar:active {
     background: #154e06;
 }
 

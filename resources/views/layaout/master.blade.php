@@ -21,8 +21,7 @@
             <input type="checkbox" id="mode-switch">
             <span class="slider"></span>
         </label>
-
-        <a href="/login"><i class="fa-solid fa-right-from-bracket"></i></a>
+        <a href="#"><i class="fa-solid fa-right-from-bracket"></i></a>
     </nav>
     <div class="contenido">
         @yield('content')
