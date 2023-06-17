@@ -23,6 +23,7 @@ Route::view('master', 'layaout.master');
 
 
 // Rutas de vistas 
+Route::view('alumnos', 'alumnos');
 Route::view('xml', 'leerXml');
 Route::view('alumnos','alumnos');
 // ======================================
